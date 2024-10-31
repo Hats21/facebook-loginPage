@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap");
+
+/* It aligns to center the content of the grid item */
+.heading {
+  align-self: center;
+}
+.input-field {
+  padding: 2.4rem auto;
+  align-self: center;
+}
+
+.input-field *:focus {
+  box-shadow: 0 0 0 1.2rem rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+  padding: 1.2rem;
+  cursor: pointer;
+  border-radius: 0.8rem;
+  border: none;
+}
+
+.main-heading {
+  color: rgba(0, 10, 255, 0.753);
+}
+
+.main-input {
+  width: 80%;
+  padding: 3.2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.8rem;
+  box-shadow: 0 12px 1.2rem rgba(0, 0, 0, 0.075);
+  background-color: #fff;
+  border-radius: 0.8rem;
+}
+
+.log-in {
+  background-color: rgb(0, 153, 255);
+  text-align: center;
+  font-size: 2.4rem;
+  color: #fff;
+}
+
+.log-in:hover {
+  background-color: #0000ffc2;
+}
+
+.new-account {
+  background-color: rgba(0, 128, 0, 0.8);
+  font-size: 2rem;
+  padding: 1.2rem 2.4rem;
+  align-self: flex-start;
+  align-content: center;
+  color: #eee;
+}
+
+.new-account:hover {
+  background-color: rgba(0, 128, 0);
+}

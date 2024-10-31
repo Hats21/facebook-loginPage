@@ -1,0 +1,70 @@
+/* when the screen is below 900px  */
+
+@media (max-width: 56rem) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+/* when th screen is below 800px */
+@media (max-width: 50rem) {
+  .container {
+    max-width: 55rem;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    row-gap: 6.4rem;
+  }
+}
+
+/* when the screen is below 450px */
+
+@media (max-width: 28rem) {
+  html {
+    font-size: 40.2%;
+  }
+}
+
+/* When the screen is below 300px */
+
+@media (max-width: 18rem) {
+  html {
+    font-size: 30%;
+  }
+}
+
+/* When the screen is below 150px */
+
+@media (max-width: 10rem) {
+  html {
+    font-size: 15%;
+  }
+  .main-input {
+    gap: 0.7rem;
+  }
+}
+
+/* When the screen is below 120px */
+
+@media (max-width: 7rem) {
+  html {
+    font-size: 10%;
+  }
+
+  .main-input {
+    padding: 2.4rem;
+    gap: 0.5rem;
+  }
+}
+
+/* When the screen is below 90px */
+
+@media (max-width: 6rem) {
+  html {
+    font-size: 8%;
+  }
+  .main-input {
+    padding: 1.2rem;
+    gap: 0.4rem;
+  }
+}
