@@ -7,10 +7,12 @@
 .input-field {
   padding: 2.4rem auto;
   align-self: center;
+  border: none;
 }
 
 .input-field *:focus {
-  box-shadow: 0 0 3px 5px rgba(0, 0, 0, 0.075);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.075);
+  outline: 2px solid rgb(0, 153, 255);
 }
 
 .btn {
@@ -34,6 +36,7 @@
   box-shadow: 0 12px 1.2rem rgba(0, 0, 0, 0.075);
   background-color: #fff;
   border-radius: 0.8rem;
+  border: 1px solid rgb(0, 153, 255);
 }
 
 .log-in {
@@ -44,7 +47,7 @@
 }
 
 .log-in:hover {
-  background-color: #0000ffc2;
+  background-color: rgb(0, 188, 255);
 }
 
 .new-account {

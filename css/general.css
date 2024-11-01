@@ -47,8 +47,9 @@ body {
 .input {
   padding: 1.2rem;
   border-radius: 0.8rem;
-  border: 1px solid #888;
+  border: none;
   font-size: 1.8rem;
+  outline: 1px solid #888;
 }
 
 .link:link,
